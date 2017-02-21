@@ -1,0 +1,1736 @@
+[
+      {
+        "name": "weka.core.Environment",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.Version"
+        ]
+      },
+      {
+        "name": "weka.core.matrix.CholeskyDecomposition",
+        "package": "weka.core.matrix",
+        "imports": [
+          "weka.core.matrix.Matrix","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.balltrees.BottomUpConstructor$TempNode",
+        "package": "weka.core.neighboursearch.balltrees",
+        "imports": [
+          "weka.core.Instance","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.TextDirectoryLoader",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Utils","weka.core.converters.AbstractLoader","weka.core.converters.Loader","weka.core.FastVector","weka.core.Instance","weka.core.Instances","weka.core.Attribute","weka.core.converters.BatchConverter","weka.core.OptionHandler","weka.core.Option","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.converters.Saver",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Instance","weka.core.RevisionHandler","weka.core.Instances"
+        ]
+      },
+      {
+        "name": "weka.core.xml.XMLBasicSerialization",
+        "package": "weka.core.xml",
+        "imports": [
+          "weka.core.xml.XMLDocument","weka.core.Matrix","weka.core.RevisionUtils","weka.core.xml.XMLSerialization","weka.core.matrix.Matrix"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.BallTree",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.Utils","weka.core.neighboursearch.NearestNeighbourSearch","weka.core.TechnicalInformation$Field","weka.core.Instance","weka.core.Instances","weka.core.EuclideanDistance","weka.core.neighboursearch.NearestNeighbourSearch$MyHeap","weka.core.TechnicalInformation$Type","weka.core.neighboursearch.balltrees.TopDownConstructor","weka.core.neighboursearch.balltrees.BallNode","weka.core.TechnicalInformation","weka.core.neighboursearch.TreePerformanceStats","weka.core.neighboursearch.NearestNeighbourSearch$MyHeapElement","weka.core.Option","weka.core.RevisionUtils","weka.core.neighboursearch.balltrees.BallTreeConstructor","weka.core.TechnicalInformationHandler"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.CoverTree$DistanceNode",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.neighboursearch.NearestNeighbourSearch","weka.core.Instance","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.DatabaseConverter",
+        "package": "weka.core.converters",
+        "imports": []
+      },
+      {
+        "name": "weka.core.pmml.FieldRef",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.Attribute","weka.core.pmml.FieldMetaInfo$Optype","weka.core.pmml.Expression"
+        ]
+      },
+      {
+        "name": "weka.core.Optimization$DynamicIntArray",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.matrix.FlexibleDecimalFormat",
+        "package": "weka.core.matrix",
+        "imports": [
+          "weka.core.matrix.ExponentialFormat","weka.core.RevisionHandler","weka.core.matrix.FloatingPointFormat","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.stemmers.NullStemmer",
+        "package": "weka.core.stemmers",
+        "imports": [
+          "weka.core.stemmers.Stemmer","weka.core.RevisionUtils","weka.core.stemmers.Stemming"
+        ]
+      },
+      {
+        "name": "weka.core.Debug$Log",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.SystemInfo","weka.core.RevisionHandler","weka.core.Debug","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.MappingInfo",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.Attribute","weka.core.pmml.PMMLUtils","weka.core.Instance","weka.core.Instances","weka.core.pmml.DerivedFieldMetaInfo","weka.core.pmml.MiningSchema"
+        ]
+      },
+      {
+        "name": "weka.core.NormalizableDistance",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.Instance","weka.core.Range","weka.core.RevisionHandler","weka.core.Instances","weka.core.Attribute","weka.core.neighboursearch.PerformanceStats","weka.core.DistanceFunction","weka.core.OptionHandler","weka.core.Option"
+        ]
+      },
+      {
+        "name": "weka.core.PropertyPath",
+        "package": "weka.core",
+        "imports": ["weka.core.RevisionHandler"]
+      },
+      {
+        "name": "weka.core.TechnicalInformation$Type",
+        "package": "weka.core",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.Copyable",
+        "package": "weka.core",
+        "imports": []
+      },
+      {
+        "name": "weka.core.mathematicalexpression.Scanner",
+        "package": "weka.core.mathematicalexpression",
+        "imports": [
+          "weka.core.mathematicalexpression.sym"
+        ]
+      },
+      {
+        "name": "weka.core.BinarySparseInstance",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.FastVector","weka.core.Instance","weka.core.Instances","weka.core.Attribute","weka.core.RevisionUtils","weka.core.SparseInstance"
+        ]
+      },
+      {
+        "name": "weka.core.matrix.ExponentialFormat",
+        "package": "weka.core.matrix",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.SerializedObject",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionHandler","weka.core.Jython","weka.core.JythonSerializableObject","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.Optimization",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.TechnicalInformation","weka.core.Utils","weka.core.Matrix","weka.core.TechnicalInformation$Field","weka.core.Optimization$DynamicIntArray","weka.core.TechnicalInformationHandler","weka.core.RevisionHandler","weka.core.TechnicalInformation$Type"
+        ]
+      },
+      {
+        "name": "weka.core.AttributeExpression",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.EditDistance",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.AbstractStringDistanceFunction","weka.core.RevisionUtils","weka.core.Instances"
+        ]
+      },
+      {
+        "name": "weka.core.Copyright",
+        "package": "weka.core",
+        "imports": []
+      },
+      {
+        "name": "weka.core.pmml.DerivedFieldMetaInfo",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.pmml.FieldMetaInfo","weka.core.Attribute","weka.core.pmml.TransformationDictionary","weka.core.pmml.FieldMetaInfo$Value","weka.core.pmml.Expression"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.Discretize",
+        "package": "weka.core.pmml",
+        "imports": ["weka.core.pmml.Expression"]
+      },
+      {
+        "name": "weka.core.Debug$DBO",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.Range","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.CoverTree",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.neighboursearch.NearestNeighbourSearch","weka.core.TechnicalInformationHandler"
+        ]
+      },
+      {
+        "name": "weka.core.FindWithCapabilities",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.Capabilities$Capability","weka.core.Instances","weka.core.Capabilities","weka.core.ClassDiscovery","weka.core.CapabilitiesHandler","weka.core.OptionHandler","weka.core.RevisionUtils","weka.core.SingleIndex","weka.core.RevisionHandler","weka.core.Option"
+        ]
+      },
+      {
+        "name": "weka.core.WekaException",
+        "package": "weka.core",
+        "imports": []
+      },
+      {
+        "name": "weka.core.PropertyPath$PathElement",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.NearestNeighbourSearch$MyHeapElement",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.AttributeExpression$NumericOperand",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.matrix.DoubleVector",
+        "package": "weka.core.matrix",
+        "imports": [
+          "weka.core.matrix.IntVector","weka.core.RevisionHandler","weka.core.matrix.FlexibleDecimalFormat","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.PMMLUtils",
+        "package": "weka.core.pmml",
+        "imports": []
+      },
+      {
+        "name": "weka.core.pmml.PMMLModel",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.pmml.MiningSchema"
+        ]
+      },
+      {
+        "name": "weka.core.tokenizers.WordTokenizer",
+        "package": "weka.core.tokenizers",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.tokenizers.CharacterDelimitedTokenizer"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.NormDiscrete",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.Attribute","weka.core.pmml.FieldMetaInfo$Optype","weka.core.Instance","weka.core.pmml.Expression"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.CoverTree$MyHeapElement",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.AttributeExpression$AttributeOperand",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.FileSourcedConverter",
+        "package": "weka.core.converters",
+        "imports": []
+      },
+      {
+        "name": "weka.core.converters.URLSourcedLoader",
+        "package": "weka.core.converters",
+        "imports": []
+      },
+      {
+        "name": "weka.core.neighboursearch.CoverTree$d_node",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.neighboursearch.CoverTree$CoverTreeNode","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.LinearNNSearch",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.Utils","weka.core.neighboursearch.NearestNeighbourSearch","weka.core.Instance","weka.core.Instances","weka.core.neighboursearch.NearestNeighbourSearch$MyHeap","weka.core.neighboursearch.NearestNeighbourSearch$MyHeapElement","weka.core.Option","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.converters.CSVSaver",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Utils","weka.core.Capabilities$Capability","weka.core.Instance","weka.core.converters.AbstractFileSaver","weka.core.converters.IncrementalConverter","weka.core.Instances","weka.core.Capabilities","weka.core.converters.Saver","weka.core.converters.BatchConverter","weka.core.converters.FileSourcedConverter","weka.core.converters.AbstractSaver","weka.core.RevisionUtils","weka.core.SparseInstance"
+        ]
+      },
+      {
+        "name": "weka.core.AttributeExpression$Operator",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.kdtrees.MidPointOfWidestDimension",
+        "package": "weka.core.neighboursearch.kdtrees",
+        "imports": [
+          "weka.core.TechnicalInformation","weka.core.neighboursearch.kdtrees.KDTreeNodeSplitter","weka.core.TechnicalInformation$Field","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler","weka.core.TechnicalInformation$Type","weka.core.neighboursearch.kdtrees.KDTreeNode"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.balltrees.BottomUpConstructor",
+        "package": "weka.core.neighboursearch.balltrees",
+        "imports": [
+          "weka.core.FastVector","weka.core.neighboursearch.balltrees.BottomUpConstructor$TempNode","weka.core.TechnicalInformation$Field","weka.core.Instance","weka.core.Instances","weka.core.TechnicalInformation$Type","weka.core.TechnicalInformation","weka.core.neighboursearch.balltrees.BallNode","weka.core.neighboursearch.balltrees.BallTreeConstructor","weka.core.TechnicalInformationHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.ArffSaver",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Utils","weka.core.converters.ArffLoader","weka.core.Capabilities$Capability","weka.core.Instance","weka.core.converters.AbstractFileSaver","weka.core.converters.IncrementalConverter","weka.core.Instances","weka.core.Capabilities","weka.core.converters.Saver","weka.core.converters.BatchConverter","weka.core.converters.XRFFLoader","weka.core.converters.AbstractSaver","weka.core.Option","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.converters.DatabaseSaver",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Utils","weka.core.converters.ArffLoader","weka.core.Capabilities$Capability","weka.core.Instance","weka.core.Instances","weka.core.Capabilities","weka.core.converters.Saver","weka.core.Attribute","weka.core.converters.DatabaseConnection","weka.core.converters.BatchConverter","weka.core.converters.AbstractSaver","weka.core.OptionHandler","weka.core.RevisionUtils","weka.core.FastVector","weka.core.converters.IncrementalConverter","weka.core.converters.DatabaseConverter","weka.core.Option"
+        ]
+      },
+      {
+        "name": "weka.core.Stopwords",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.RevisionHandler","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.tokenizers.AlphabeticTokenizer",
+        "package": "weka.core.tokenizers",
+        "imports": [
+          "weka.core.tokenizers.Tokenizer","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.CheckScheme",
+        "package": "weka.core",
+        "imports": ["weka.core.Check"]
+      },
+      {
+        "name": "weka.core.Memory",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.RevisionHandler","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.tokenizers.NGramTokenizer",
+        "package": "weka.core.tokenizers",
+        "imports": [
+          "weka.core.Utils","weka.core.Option","weka.core.RevisionUtils","weka.core.tokenizers.CharacterDelimitedTokenizer"
+        ]
+      },
+      {
+        "name": "weka.core.UnassignedDatasetException",
+        "package": "weka.core",
+        "imports": []
+      },
+      {
+        "name": "weka.core.Queue$QueueNode",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.Loader",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Instance","weka.core.RevisionHandler","weka.core.Instances"
+        ]
+      },
+      {
+        "name": "weka.core.StringLocator",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Attribute","weka.core.Instance","weka.core.RevisionUtils","weka.core.Instances","weka.core.AttributeLocator"
+        ]
+      },
+      {
+        "name": "weka.core.GlobalInfoJavadoc",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Javadoc","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.Randomizable",
+        "package": "weka.core",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.Tee",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.Instances",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.AttributeStats","weka.core.Utils","weka.core.Instance","weka.core.UnassignedClassException","weka.core.Attribute","weka.core.RevisionUtils","weka.core.converters.ConverterUtils$DataSource","weka.core.FastVector","weka.core.RevisionHandler","weka.core.converters.ArffLoader$ArffReader"
+        ]
+      },
+      {
+        "name": "weka.core.Jython",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.logging.FileLogger",
+        "package": "weka.core.logging",
+        "imports": [
+          "weka.core.logging.ConsoleLogger","weka.core.RevisionUtils","weka.core.logging.Logger$Level","weka.core.logging.Logger"
+        ]
+      },
+      {
+        "name": "weka.core.Trie$TrieNode",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.ConverterUtils$DataSink",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.converters.ConverterUtils$DataSource","weka.core.converters.AbstractFileSaver","weka.core.RevisionHandler","weka.core.Instances","weka.core.converters.ArffSaver","weka.core.converters.Saver","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.xml.XMLInstances",
+        "package": "weka.core.xml",
+        "imports": [
+          "weka.core.xml.XMLDocument","weka.core.Utils","weka.core.Instance","weka.core.Instances","weka.core.Attribute","weka.core.RevisionUtils","weka.core.SparseInstance","weka.core.ProtectedProperties","weka.core.FastVector","weka.core.Version"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.FieldMetaInfo$Interval$Closure",
+        "package": "weka.core.pmml",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.PropertyPath$PropertyContainer",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.DatabaseConnection",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.TechnicalInformation",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.TechnicalInformation$Field","weka.core.RevisionHandler","weka.core.TechnicalInformation$Type","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler"
+        ]
+      },
+      {
+        "name": "weka.core.RevisionHandler",
+        "package": "weka.core",
+        "imports": []
+      },
+      {
+        "name": "weka.core.converters.ConverterUtils$DataSource",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.converters.ConverterUtils","weka.core.converters.ArffLoader","weka.core.converters.Loader","weka.core.Instance","weka.core.converters.IncrementalConverter","weka.core.RevisionHandler","weka.core.Instances","weka.core.converters.AbstractFileLoader","weka.core.converters.URLSourcedLoader","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.Discretize$DiscretizeBin",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.pmml.FieldMetaInfo$Interval"
+        ]
+      },
+      {
+        "name": "weka.core.converters.ConverterUtils",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.DistanceFunction",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.neighboursearch.PerformanceStats","weka.core.OptionHandler","weka.core.Instance","weka.core.Instances"
+        ]
+      },
+      {
+        "name": "weka.core.ClassDiscovery$StringCompare",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.AbstractFileSaver",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Utils","weka.core.converters.ArffLoader","weka.core.converters.AbstractSaver","weka.core.OptionHandler","weka.core.converters.FileSourcedConverter","weka.core.EnvironmentHandler","weka.core.Option","weka.core.Environment"
+        ]
+      },
+      {
+        "name": "weka.core.logging.Logger$Level",
+        "package": "weka.core.logging",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.logging.OutputLogger",
+        "package": "weka.core.logging",
+        "imports": ["weka.core.logging.FileLogger"]
+      },
+      {
+        "name": "weka.core.neighboursearch.kdtrees.KDTreeNodeSplitter",
+        "package": "weka.core.neighboursearch.kdtrees",
+        "imports": [
+          "weka.core.NormalizableDistance","weka.core.OptionHandler","weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.Instances","weka.core.EuclideanDistance","weka.core.neighboursearch.kdtrees.KDTreeNode"
+        ]
+      },
+      {
+        "name": "weka.core.stemmers.Stemmer",
+        "package": "weka.core.stemmers",
+        "imports": [
+          "weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.IncrementalConverter",
+        "package": "weka.core.converters",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.ChebyshevDistance",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.TechnicalInformation","weka.core.NormalizableDistance","weka.core.TechnicalInformation$Field","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler","weka.core.Instances","weka.core.TechnicalInformation$Type"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.FieldMetaInfo$Interval",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.pmml.FieldMetaInfo$Interval$Closure"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.kdtrees.MedianOfWidestDimension",
+        "package": "weka.core.neighboursearch.kdtrees",
+        "imports": [
+          "weka.core.TechnicalInformation","weka.core.neighboursearch.kdtrees.KDTreeNodeSplitter","weka.core.TechnicalInformation$Field","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler","weka.core.TechnicalInformation$Type","weka.core.neighboursearch.kdtrees.KDTreeNode"
+        ]
+      },
+      {
+        "name": "weka.core.EnvironmentHandler",
+        "package": "weka.core",
+        "imports": ["weka.core.Environment"]
+      },
+      {
+        "name": "weka.core.RelationalLocator",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Attribute","weka.core.Instance","weka.core.RevisionUtils","weka.core.Instances","weka.core.AttributeLocator"
+        ]
+      },
+      {
+        "name": "weka.core.Utils",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Instance","weka.core.CapabilitiesHandler","weka.core.OptionHandler","weka.core.RevisionUtils","weka.core.MultiInstanceCapabilitiesHandler","weka.core.FastVector","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.XRFFLoader",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.converters.Loader","weka.core.Instance","weka.core.Instances","weka.core.converters.AbstractFileLoader","weka.core.converters.URLSourcedLoader","weka.core.converters.BatchConverter","weka.core.xml.XMLInstances","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.tokenizers.Tokenizer",
+        "package": "weka.core.tokenizers",
+        "imports": [
+          "weka.core.OptionHandler","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.FieldMetaInfo",
+        "package": "weka.core.pmml",
+        "imports": []
+      },
+      {
+        "name": "weka.core.NoSupportForMissingValuesException",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.WekaException"
+        ]
+      },
+      {
+        "name": "weka.core.Debug$Random",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Debug$Log","weka.core.Utils","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.MiningFieldMetaInfo",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.Utils","weka.core.pmml.MiningFieldMetaInfo$Outlier","weka.core.Instance","weka.core.Instances","weka.core.pmml.FieldMetaInfo","weka.core.Attribute","weka.core.pmml.FieldMetaInfo$Optype","weka.core.pmml.MiningFieldMetaInfo$Missing","weka.core.pmml.MiningFieldMetaInfo$Usage"
+        ]
+      },
+      {
+        "name": "weka.core.InstanceComparator",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.Instance","weka.core.RevisionHandler","weka.core.Instances","weka.core.Attribute","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.PropertyPath$Path",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.PropertyPath$PathElement","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.kdtrees.KMeansInpiredMethod",
+        "package": "weka.core.neighboursearch.kdtrees",
+        "imports": [
+          "weka.core.neighboursearch.kdtrees.KDTreeNodeSplitter","weka.core.TechnicalInformation$Field","weka.core.Instance","weka.core.Instances","weka.core.TechnicalInformation$Type","weka.core.neighboursearch.kdtrees.KDTreeNode","weka.core.TechnicalInformation","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.BuiltInArithmetic$Operator",
+        "package": "weka.core.pmml",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.pmml.MiningSchema",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.pmml.TargetMetaInfo","weka.core.FastVector","weka.core.Instances","weka.core.pmml.MiningFieldMetaInfo","weka.core.Attribute","weka.core.pmml.TransformationDictionary","weka.core.pmml.DerivedFieldMetaInfo","weka.core.pmml.MiningFieldMetaInfo$Usage"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.NearestNeighbourSearch$MyHeap",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.neighboursearch.NearestNeighbourSearch$MyHeapElement","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.LibSVMLoader",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Instance","weka.core.Instances","weka.core.Attribute","weka.core.converters.BatchConverter","weka.core.RevisionUtils","weka.core.SparseInstance","weka.core.converters.Loader","weka.core.FastVector","weka.core.converters.AbstractFileLoader","weka.core.converters.URLSourcedLoader"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.balltrees.BallSplitter",
+        "package": "weka.core.neighboursearch.balltrees",
+        "imports": [
+          "weka.core.neighboursearch.balltrees.BallNode","weka.core.OptionHandler","weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.Instances","weka.core.EuclideanDistance"
+        ]
+      },
+      {
+        "name": "weka.core.FastVector$FastVectorEnumeration",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.FastVector","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.Queue",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.AbstractLoader",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.converters.Loader","weka.core.Instance","weka.core.Instances"
+        ]
+      },
+      {
+        "name": "weka.core.Tag",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.ManhattanDistance",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.TechnicalInformation","weka.core.NormalizableDistance","weka.core.TechnicalInformation$Field","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler","weka.core.Instances","weka.core.TechnicalInformation$Type"
+        ]
+      },
+      {
+        "name": "weka.core.xml.MethodHandler",
+        "package": "weka.core.xml",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.MathematicalExpression",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.mathematicalexpression.Scanner","weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.mathematicalexpression.Parser"
+        ]
+      },
+      {
+        "name": "weka.core.Range",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionHandler","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.DefineFunction",
+        "package": "weka.core.pmml",
+        "imports": ["weka.core.pmml.Function"]
+      },
+      {
+        "name": "weka.core.Capabilities$Capability",
+        "package": "weka.core",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.matrix.QRDecomposition",
+        "package": "weka.core.matrix",
+        "imports": [
+          "weka.core.matrix.Matrix","weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.matrix.Maths"
+        ]
+      },
+      {
+        "name": "weka.core.stemmers.LovinsStemmer",
+        "package": "weka.core.stemmers",
+        "imports": [
+          "weka.core.stemmers.Stemmer","weka.core.TechnicalInformation$Field","weka.core.TechnicalInformation$Type","weka.core.stemmers.Stemming","weka.core.TechnicalInformation","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.DefineFunction$ParameterField",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.pmml.FieldMetaInfo","weka.core.Attribute","weka.core.pmml.FieldMetaInfo$Optype","weka.core.FastVector"
+        ]
+      },
+      {
+        "name": "weka.core.tokenizers.CharacterDelimitedTokenizer",
+        "package": "weka.core.tokenizers",
+        "imports": [
+          "weka.core.Utils","weka.core.tokenizers.Tokenizer","weka.core.Option"
+        ]
+      },
+      {
+        "name": "weka.core.CheckScheme$PostProcessor",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.Instances"
+        ]
+      },
+      {
+        "name": "weka.core.ClassloaderUtil",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.AllJavadoc",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.ClassDiscovery","weka.core.Javadoc","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.Attribute",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.Instance","weka.core.Instances","weka.core.RevisionUtils","weka.core.SerializedObject","weka.core.Copyable","weka.core.FastVector","weka.core.ProtectedProperties","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.BuiltInMath",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.Utils","weka.core.Attribute","weka.core.pmml.Function","weka.core.pmml.BuiltInMath$MathFunc"
+        ]
+      },
+      {
+        "name": "weka.core.mathematicalexpression.Parser",
+        "package": "weka.core.mathematicalexpression",
+        "imports": [
+          "weka.core.mathematicalexpression.Scanner"
+        ]
+      },
+      {
+        "name": "weka.core.Instance",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.Copyable","weka.core.FastVector","weka.core.UnassignedDatasetException","weka.core.RevisionHandler","weka.core.UnassignedClassException","weka.core.Instances","weka.core.Attribute","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.converters.SerializedInstancesLoader",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.converters.BatchConverter","weka.core.Instance","weka.core.RevisionUtils","weka.core.converters.IncrementalConverter","weka.core.Instances","weka.core.converters.AbstractFileLoader"
+        ]
+      },
+      {
+        "name": "weka.core.Trie",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.Debug$Clock",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.Tag","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.WeightedInstancesHandler",
+        "package": "weka.core",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.TechnicalInformation$Field",
+        "package": "weka.core",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.converters.DatabaseLoader",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Utils","weka.core.converters.AbstractLoader","weka.core.Instance","weka.core.Instances","weka.core.Attribute","weka.core.converters.DatabaseConnection","weka.core.converters.BatchConverter","weka.core.OptionHandler","weka.core.RevisionUtils","weka.core.converters.Loader","weka.core.FastVector","weka.core.converters.IncrementalConverter","weka.core.converters.DatabaseConverter","weka.core.Option"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.CoverTree$CoverTreeNode",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.neighboursearch.NearestNeighbourSearch","weka.core.Instance","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.Debug",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Debug$Log","weka.core.Debug$Clock","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.Expression",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.pmml.NormDiscrete","weka.core.pmml.Constant","weka.core.Attribute","weka.core.pmml.NormContinuous","weka.core.pmml.FieldMetaInfo$Optype","weka.core.pmml.TransformationDictionary","weka.core.pmml.Apply","weka.core.pmml.Discretize","weka.core.pmml.FieldRef"
+        ]
+      },
+      {
+        "name": "weka.core.SerializationHelper",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionHandler","weka.core.ClassDiscovery","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.PMMLFactory",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.Instance","weka.core.Instances","weka.core.pmml.MiningSchema","weka.core.Attribute","weka.core.pmml.TransformationDictionary","weka.core.pmml.PMMLModel","weka.core.FastVector","weka.core.pmml.PMMLFactory$ModelType"
+        ]
+      },
+      {
+        "name": "weka.core.xml.XMLSerializationMethodHandler",
+        "package": "weka.core.xml",
+        "imports": [
+          "weka.core.xml.MethodHandler","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.stemmers.IteratedLovinsStemmer",
+        "package": "weka.core.stemmers",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.stemmers.LovinsStemmer","weka.core.stemmers.Stemming"
+        ]
+      },
+      {
+        "name": "weka.core.mathematicalexpression.CUP$Parser$actions",
+        "package": "weka.core.mathematicalexpression",
+        "imports": [
+          "weka.core.mathematicalexpression.Parser"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.balltrees.MiddleOutConstructor$TempNode",
+        "package": "weka.core.neighboursearch.balltrees",
+        "imports": [
+          "weka.core.neighboursearch.balltrees.MiddleOutConstructor$MyIdxList","weka.core.Instance","weka.core.RevisionUtils","weka.core.neighboursearch.balltrees.MiddleOutConstructor$ListNode","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.BuiltInString$StringFunc",
+        "package": "weka.core.pmml",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.converters.LibSVMSaver",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Utils","weka.core.converters.LibSVMLoader","weka.core.Capabilities$Capability","weka.core.Instance","weka.core.converters.AbstractFileSaver","weka.core.converters.IncrementalConverter","weka.core.Instances","weka.core.Capabilities","weka.core.converters.Saver","weka.core.converters.BatchConverter","weka.core.converters.AbstractSaver","weka.core.Option","weka.core.RevisionUtils","weka.core.SingleIndex"
+        ]
+      },
+      {
+        "name": "weka.core.converters.XRFFSaver",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Utils","weka.core.Capabilities$Capability","weka.core.converters.AbstractFileSaver","weka.core.Instances","weka.core.Capabilities","weka.core.converters.Saver","weka.core.converters.BatchConverter","weka.core.converters.XRFFLoader","weka.core.converters.AbstractSaver","weka.core.xml.XMLInstances","weka.core.Option","weka.core.RevisionUtils","weka.core.SingleIndex"
+        ]
+      },
+      {
+        "name": "weka.core.CheckGOE",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.Check","weka.core.Option","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.mathematicalexpression.sym",
+        "package": "weka.core.mathematicalexpression",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.converters.C45Saver",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Utils","weka.core.converters.ArffLoader","weka.core.Capabilities$Capability","weka.core.Instance","weka.core.converters.AbstractFileSaver","weka.core.Instances","weka.core.Capabilities","weka.core.converters.Saver","weka.core.Attribute","weka.core.converters.BatchConverter","weka.core.OptionHandler","weka.core.converters.AbstractSaver","weka.core.RevisionUtils","weka.core.FastVector","weka.core.converters.IncrementalConverter","weka.core.Option"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.CoverTree$MyHeap",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.neighboursearch.CoverTree$MyHeapElement","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.KDTree",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.Utils","weka.core.NormalizableDistance","weka.core.neighboursearch.NearestNeighbourSearch","weka.core.neighboursearch.kdtrees.KDTreeNodeSplitter","weka.core.TechnicalInformation$Field","weka.core.Instance","weka.core.Instances","weka.core.neighboursearch.kdtrees.SlidingMidPointOfWidestSide","weka.core.neighboursearch.kdtrees.KDTreeNode","weka.core.neighboursearch.NearestNeighbourSearch$MyHeapElement","weka.core.DistanceFunction","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler","weka.core.EuclideanDistance","weka.core.neighboursearch.NearestNeighbourSearch$MyHeap","weka.core.TechnicalInformation$Type","weka.core.TechnicalInformation","weka.core.neighboursearch.TreePerformanceStats","weka.core.Option"
+        ]
+      },
+      {
+        "name": "weka.core.ContingencyTables",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.SpecialFunctions","weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.Statistics"
+        ]
+      },
+      {
+        "name": "weka.core.Undoable",
+        "package": "weka.core",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.xml.KOML",
+        "package": "weka.core.xml",
+        "imports": [
+          "weka.core.RevisionHandler","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.Matrix",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.matrix.LUDecomposition","weka.core.matrix.Matrix","weka.core.RevisionHandler","weka.core.matrix.EigenvalueDecomposition","weka.core.RevisionUtils","weka.core.matrix.Maths"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.BuiltInArithmetic",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.Attribute","weka.core.pmml.BuiltInArithmetic$Operator","weka.core.pmml.Function"
+        ]
+      },
+      {
+        "name": "weka.core.xml.XStream",
+        "package": "weka.core.xml",
+        "imports": [
+          "weka.core.RevisionHandler","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.balltrees.BallNode",
+        "package": "weka.core.neighboursearch.balltrees",
+        "imports": [
+          "weka.core.Instance","weka.core.DistanceFunction","weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.Instances"
+        ]
+      },
+      {
+        "name": "weka.core.AdditionalMeasureProducer",
+        "package": "weka.core",
+        "imports": []
+      },
+      {
+        "name": "weka.core.converters.AbstractSaver",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.converters.Saver","weka.core.CapabilitiesHandler","weka.core.Instance","weka.core.Instances","weka.core.Capabilities"
+        ]
+      },
+      {
+        "name": "weka.core.OptionHandlerJavadoc",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.ClassDiscovery","weka.core.Javadoc","weka.core.OptionHandler","weka.core.Option","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.Debug$Timestamp",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.Check",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.OptionHandler","weka.core.Option","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.Version",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.BuiltInString",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.Attribute","weka.core.FastVector","weka.core.pmml.BuiltInString$StringFunc","weka.core.pmml.Function"
+        ]
+      },
+      {
+        "name": "weka.core.converters.ArffLoader",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.converters.URLSourcedLoader","weka.core.converters.BatchConverter","weka.core.converters.IncrementalConverter","weka.core.Instances","weka.core.converters.ArffLoader$ArffReader","weka.core.converters.AbstractFileLoader"
+        ]
+      },
+      {
+        "name": "weka.core.ClassDiscovery",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionHandler","weka.core.ClassDiscovery$StringCompare","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.converters.SVMLightSaver",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Utils","weka.core.Capabilities$Capability","weka.core.Instance","weka.core.converters.SVMLightLoader","weka.core.converters.AbstractFileSaver","weka.core.converters.IncrementalConverter","weka.core.Instances","weka.core.Capabilities","weka.core.converters.Saver","weka.core.converters.BatchConverter","weka.core.converters.AbstractSaver","weka.core.Option","weka.core.RevisionUtils","weka.core.SingleIndex"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.NearestNeighbourSearch$NeighborList",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.Instance","weka.core.RevisionUtils","weka.core.neighboursearch.NearestNeighbourSearch$NeighborNode","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.xml.SerialUIDChanger",
+        "package": "weka.core.xml",
+        "imports": [
+          "weka.core.RevisionHandler","weka.core.xml.KOML","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.matrix.FloatingPointFormat",
+        "package": "weka.core.matrix",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.SerializedInstancesSaver",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.converters.Saver","weka.core.converters.BatchConverter","weka.core.Capabilities$Capability","weka.core.converters.AbstractSaver","weka.core.RevisionUtils","weka.core.converters.AbstractFileSaver","weka.core.Capabilities"
+        ]
+      },
+      {
+        "name": "weka.core.SparseInstance",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.FastVector","weka.core.Instance","weka.core.UnassignedDatasetException","weka.core.Instances","weka.core.Attribute","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.logging.ConsoleLogger",
+        "package": "weka.core.logging",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.logging.Logger$Level","weka.core.logging.Logger"
+        ]
+      },
+      {
+        "name": "weka.core.RandomVariates",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.kdtrees.KDTreeNode",
+        "package": "weka.core.neighboursearch.kdtrees",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.stemmers.SnowballStemmer",
+        "package": "weka.core.stemmers",
+        "imports": [
+          "weka.core.Utils","weka.core.stemmers.Stemmer","weka.core.stemmers.Stemming","weka.core.ClassDiscovery","weka.core.OptionHandler","weka.core.Option","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.converters.CSVLoader",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Utils","weka.core.Instance","weka.core.Range","weka.core.Instances","weka.core.Attribute","weka.core.converters.BatchConverter","weka.core.OptionHandler","weka.core.RevisionUtils","weka.core.converters.ConverterUtils","weka.core.converters.Loader","weka.core.FastVector","weka.core.converters.AbstractFileLoader","weka.core.Option"
+        ]
+      },
+      {
+        "name": "weka.core.SystemInfo",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.RevisionHandler","weka.core.Version","weka.core.RevisionUtils","weka.core.Memory"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.PerformanceStats",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.AdditionalMeasureProducer","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.Apply",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.pmml.DefineFunction","weka.core.pmml.Function","weka.core.Attribute","weka.core.pmml.FieldMetaInfo$Optype","weka.core.pmml.TransformationDictionary","weka.core.pmml.Expression"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.TransformationDictionary",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.Attribute","weka.core.pmml.DefineFunction","weka.core.SerializedObject","weka.core.pmml.DerivedFieldMetaInfo","weka.core.Instances"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.balltrees.PointsClosestToFurthestChildren",
+        "package": "weka.core.neighboursearch.balltrees",
+        "imports": [
+          "weka.core.TechnicalInformation$Field","weka.core.Instance","weka.core.neighboursearch.balltrees.BallSplitter","weka.core.Instances","weka.core.EuclideanDistance","weka.core.TechnicalInformation$Type","weka.core.TechnicalInformation","weka.core.neighboursearch.balltrees.BallNode","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.PMMLFactory$PMMLClassifierRunner",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.Instance","weka.core.RevisionUtils","weka.core.Instances"
+        ]
+      },
+      {
+        "name": "weka.core.matrix.EigenvalueDecomposition",
+        "package": "weka.core.matrix",
+        "imports": [
+          "weka.core.matrix.Matrix","weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.matrix.Maths"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.balltrees.BallTreeConstructor",
+        "package": "weka.core.neighboursearch.balltrees",
+        "imports": [
+          "weka.core.Utils","weka.core.Instance","weka.core.RevisionHandler","weka.core.Instances","weka.core.EuclideanDistance","weka.core.neighboursearch.balltrees.BallNode","weka.core.OptionHandler","weka.core.DistanceFunction","weka.core.Option","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.AlgVector",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.Instance","weka.core.RevisionHandler","weka.core.Instances","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.xml.PropertyHandler",
+        "package": "weka.core.xml",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.RevisionUtils",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils$Type","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.ProtectedProperties",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.converters.C45Loader",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.converters.ConverterUtils","weka.core.converters.Loader","weka.core.FastVector","weka.core.Instance","weka.core.converters.IncrementalConverter","weka.core.Instances","weka.core.converters.AbstractFileLoader","weka.core.Attribute","weka.core.converters.BatchConverter","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.matrix.Maths",
+        "package": "weka.core.matrix",
+        "imports": [
+          "weka.core.matrix.DoubleVector","weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.Statistics"
+        ]
+      },
+      {
+        "name": "weka.core.AttributeStats",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.covertrees.Stack",
+        "package": "weka.core.neighboursearch.covertrees",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.EuclideanDistance",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.NormalizableDistance","weka.core.TechnicalInformation$Field","weka.core.Instance","weka.core.Instances","weka.core.TechnicalInformation$Type","weka.core.TechnicalInformation","weka.core.neighboursearch.PerformanceStats","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler"
+        ]
+      },
+      {
+        "name": "weka.core.AbstractStringDistanceFunction",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.NormalizableDistance","weka.core.Attribute","weka.core.neighboursearch.PerformanceStats","weka.core.Instance","weka.core.Instances"
+        ]
+      },
+      {
+        "name": "weka.core.converters.AbstractFileLoader",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Utils","weka.core.converters.AbstractLoader","weka.core.converters.Loader","weka.core.Instance","weka.core.converters.IncrementalConverter","weka.core.Instances","weka.core.converters.FileSourcedConverter","weka.core.OptionHandler","weka.core.EnvironmentHandler","weka.core.Option","weka.core.Environment"
+        ]
+      },
+      {
+        "name": "weka.core.matrix.IntVector",
+        "package": "weka.core.matrix",
+        "imports": [
+          "weka.core.matrix.FlexibleDecimalFormat","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.xml.XMLOptions",
+        "package": "weka.core.xml",
+        "imports": [
+          "weka.core.xml.XMLDocument","weka.core.Utils","weka.core.RevisionHandler","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.UnsupportedClassTypeException",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.WekaException"
+        ]
+      },
+      {
+        "name": "weka.core.stemmers.Stemming",
+        "package": "weka.core.stemmers",
+        "imports": [
+          "weka.core.Utils","weka.core.stemmers.Stemmer","weka.core.RevisionHandler","weka.core.OptionHandler","weka.core.Option","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.UnsupportedAttributeTypeException",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.WekaException"
+        ]
+      },
+      {
+        "name": "weka.core.CheckOptionHandler",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Check","weka.core.Utils","weka.core.OptionHandler","weka.core.Option","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.TestInstances",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.Instance","weka.core.Capabilities$Capability","weka.core.Instances","weka.core.Capabilities","weka.core.Attribute","weka.core.ClassDiscovery","weka.core.CapabilitiesHandler","weka.core.OptionHandler","weka.core.RevisionUtils","weka.core.MultiInstanceCapabilitiesHandler","weka.core.FastVector","weka.core.RevisionHandler","weka.core.Option"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.NearestNeighbourSearch$NeighborNode",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.Instance","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.Statistics",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.MiningFieldMetaInfo$Missing",
+        "package": "weka.core.pmml",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.RevisionUtils$Type",
+        "package": "weka.core",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.pmml.Function",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.Attribute","weka.core.pmml.BuiltInMath","weka.core.pmml.BuiltInArithmetic$Operator","weka.core.pmml.TransformationDictionary","weka.core.pmml.BuiltInString","weka.core.pmml.BuiltInString$StringFunc","weka.core.pmml.BuiltInArithmetic","weka.core.pmml.BuiltInMath$MathFunc"
+        ]
+      },
+      {
+        "name": "weka.core.Trie$TrieIterator",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Trie$TrieNode","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.balltrees.MiddleOutConstructor",
+        "package": "weka.core.neighboursearch.balltrees",
+        "imports": [
+          "weka.core.Utils","weka.core.neighboursearch.balltrees.MiddleOutConstructor$TempNode","weka.core.Randomizable","weka.core.TechnicalInformation$Field","weka.core.Instance","weka.core.Instances","weka.core.TechnicalInformation$Type","weka.core.neighboursearch.balltrees.MiddleOutConstructor$MyIdxList","weka.core.TechnicalInformation","weka.core.neighboursearch.balltrees.BallNode","weka.core.Option","weka.core.RevisionUtils","weka.core.neighboursearch.balltrees.BallTreeConstructor","weka.core.neighboursearch.balltrees.MiddleOutConstructor$ListNode","weka.core.TechnicalInformationHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.TargetMetaInfo",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.FastVector","weka.core.Instance","weka.core.pmml.FieldMetaInfo","weka.core.Attribute","weka.core.pmml.FieldMetaInfo$Optype"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.balltrees.MiddleOutConstructor$ListNode",
+        "package": "weka.core.neighboursearch.balltrees",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.MultiInstanceCapabilitiesHandler",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.CapabilitiesHandler","weka.core.Capabilities"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.balltrees.TopDownConstructor",
+        "package": "weka.core.neighboursearch.balltrees",
+        "imports": [
+          "weka.core.Utils","weka.core.TechnicalInformation$Field","weka.core.Instance","weka.core.neighboursearch.balltrees.BallSplitter","weka.core.EuclideanDistance","weka.core.TechnicalInformation$Type","weka.core.neighboursearch.balltrees.PointsClosestToFurthestChildren","weka.core.TechnicalInformation","weka.core.neighboursearch.balltrees.BallNode","weka.core.Option","weka.core.RevisionUtils","weka.core.neighboursearch.balltrees.BallTreeConstructor","weka.core.TechnicalInformationHandler"
+        ]
+      },
+      {
+        "name": "weka.core.Capabilities",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.Capabilities$Capability","weka.core.Instance","weka.core.UnassignedClassException","weka.core.Instances","weka.core.Attribute","weka.core.CapabilitiesHandler","weka.core.RevisionUtils","weka.core.SparseInstance","weka.core.MultiInstanceCapabilitiesHandler","weka.core.WekaException","weka.core.NoSupportForMissingValuesException","weka.core.converters.ConverterUtils$DataSource","weka.core.UnsupportedAttributeTypeException","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.AttributeLocator",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Attribute","weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.Instances"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.PMMLFactory$ModelType",
+        "package": "weka.core.pmml",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.converters.SVMLightLoader",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.Instance","weka.core.Instances","weka.core.Attribute","weka.core.converters.BatchConverter","weka.core.RevisionUtils","weka.core.SparseInstance","weka.core.converters.Loader","weka.core.FastVector","weka.core.converters.AbstractFileLoader","weka.core.converters.URLSourcedLoader"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.balltrees.MiddleOutConstructor$MyIdxList",
+        "package": "weka.core.neighboursearch.balltrees",
+        "imports": [
+          "weka.core.FastVector","weka.core.RevisionUtils","weka.core.neighboursearch.balltrees.MiddleOutConstructor$ListNode"
+        ]
+      },
+      {
+        "name": "weka.core.Summarizable",
+        "package": "weka.core",
+        "imports": []
+      },
+      {
+        "name": "weka.core.pmml.Constant",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.FastVector","weka.core.Attribute","weka.core.pmml.FieldMetaInfo$Optype","weka.core.pmml.Expression"
+        ]
+      },
+      {
+        "name": "weka.core.logging.Logger",
+        "package": "weka.core.logging",
+        "imports": [
+          "weka.core.logging.ConsoleLogger","weka.core.Utils","weka.core.logging.Logger$Level","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.Drawable",
+        "package": "weka.core",
+        "imports": []
+      },
+      {
+        "name": "weka.core.matrix.Matrix",
+        "package": "weka.core.matrix",
+        "imports": [
+          "weka.core.matrix.LinearRegression","weka.core.Utils","weka.core.matrix.CholeskyDecomposition","weka.core.matrix.SingularValueDecomposition","weka.core.RevisionUtils","weka.core.matrix.QRDecomposition","weka.core.matrix.LUDecomposition","weka.core.RevisionHandler","weka.core.matrix.EigenvalueDecomposition","weka.core.matrix.Maths"
+        ]
+      },
+      {
+        "name": "weka.core.ListOptions",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.OptionHandler","weka.core.Option","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.balltrees.MedianDistanceFromArbitraryPoint",
+        "package": "weka.core.neighboursearch.balltrees",
+        "imports": [
+          "weka.core.Utils","weka.core.TechnicalInformation$Field","weka.core.Instance","weka.core.neighboursearch.balltrees.BallSplitter","weka.core.Instances","weka.core.EuclideanDistance","weka.core.TechnicalInformation$Type","weka.core.TechnicalInformation","weka.core.neighboursearch.balltrees.BallNode","weka.core.Option","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler"
+        ]
+      },
+      {
+        "name": "weka.core.SingleIndex",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.CapabilitiesHandler",
+        "package": "weka.core",
+        "imports": ["weka.core.Capabilities"]
+      },
+      {
+        "name": "weka.core.JythonObject",
+        "package": "weka.core",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.SelectedTag",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Tag","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.FieldMetaInfo$Value",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.pmml.FieldMetaInfo$Value$Property"
+        ]
+      },
+      {
+        "name": "weka.core.matrix.LUDecomposition",
+        "package": "weka.core.matrix",
+        "imports": [
+          "weka.core.matrix.Matrix","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.MiningFieldMetaInfo$Usage",
+        "package": "weka.core.pmml",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.Debug$SimpleLog",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Debug$Timestamp","weka.core.SystemInfo","weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.Debug"
+        ]
+      },
+      {
+        "name": "weka.core.converters.BatchConverter",
+        "package": "weka.core.converters",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.matrix.SingularValueDecomposition",
+        "package": "weka.core.matrix",
+        "imports": [
+          "weka.core.matrix.Matrix","weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.matrix.Maths"
+        ]
+      },
+      {
+        "name": "weka.core.SpecialFunctions",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.Statistics"
+        ]
+      },
+      {
+        "name": "weka.core.converters.ArffLoader$ArffReader",
+        "package": "weka.core.converters",
+        "imports": [
+          "weka.core.FastVector","weka.core.Instance","weka.core.RevisionHandler","weka.core.Instances","weka.core.Attribute","weka.core.RevisionUtils","weka.core.SparseInstance"
+        ]
+      },
+      {
+        "name": "weka.core.TechnicalInformationHandlerJavadoc",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.ClassDiscovery","weka.core.Javadoc","weka.core.Option","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler"
+        ]
+      },
+      {
+        "name": "weka.core.OptionHandler",
+        "package": "weka.core",
+        "imports": []
+      },
+      {
+        "name": "weka.core.neighboursearch.kdtrees.SlidingMidPointOfWidestSide",
+        "package": "weka.core.neighboursearch.kdtrees",
+        "imports": [
+          "weka.core.TechnicalInformation","weka.core.neighboursearch.kdtrees.KDTreeNodeSplitter","weka.core.TechnicalInformation$Field","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler","weka.core.TechnicalInformation$Type","weka.core.neighboursearch.kdtrees.KDTreeNode"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.FieldMetaInfo$Optype",
+        "package": "weka.core.pmml",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.pmml.BuiltInMath$MathFunc",
+        "package": "weka.core.pmml",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.logging.OutputLogger$OutputPrintStream",
+        "package": "weka.core.logging",
+        "imports": [
+          "weka.core.logging.OutputLogger"
+        ]
+      },
+      {
+        "name": "weka.core.JythonSerializableObject",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.JythonObject"
+        ]
+      },
+      {
+        "name": "weka.core.TechnicalInformationHandler",
+        "package": "weka.core",
+        "imports": ["weka.core.TechnicalInformation"]
+      },
+      {
+        "name": "weka.core.Option",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.MiningFieldMetaInfo$Outlier",
+        "package": ["weka.core.pmml"]
+      },
+      {
+        "name": "weka.core.matrix.LinearRegression",
+        "package": "weka.core.matrix",
+        "imports": [
+          "weka.core.Utils","weka.core.matrix.Matrix","weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.FastVector",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Copyable","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.xml.XMLDocument",
+        "package": "weka.core.xml",
+        "imports": [
+          "weka.core.RevisionUtils","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.pmml.NormContinuous",
+        "package": "weka.core.pmml",
+        "imports": [
+          "weka.core.Attribute","weka.core.pmml.FieldMetaInfo$Optype","weka.core.pmml.MiningFieldMetaInfo$Outlier","weka.core.Instance","weka.core.pmml.Expression"
+        ]
+      },
+      {
+        "name": "weka.core.Matchable",
+        "package": "weka.core",
+        "imports": []
+      },
+      {
+        "name": "weka.core.neighboursearch.NearestNeighbourSearch",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.OptionHandler","weka.core.AdditionalMeasureProducer","weka.core.RevisionHandler"
+        ]
+      },
+      {
+        "name": "weka.core.neighboursearch.balltrees.MedianOfWidestDimension",
+        "package": "weka.core.neighboursearch.balltrees",
+        "imports": [
+          "weka.core.Utils","weka.core.NormalizableDistance","weka.core.TechnicalInformation$Field","weka.core.Instance","weka.core.neighboursearch.balltrees.BallSplitter","weka.core.Instances","weka.core.EuclideanDistance","weka.core.TechnicalInformation$Type","weka.core.TechnicalInformation","weka.core.neighboursearch.balltrees.BallNode","weka.core.OptionHandler","weka.core.Option","weka.core.RevisionUtils","weka.core.TechnicalInformationHandler"
+        ]
+      },
+      {
+        "name": "weka.core.Javadoc",
+        "package": "weka.core",
+        "imports": [
+          "weka.core.Utils","weka.core.RevisionHandler","weka.core.OptionHandler","weka.core.Option"
+        ]
+      },
+      {
+        "name": "weka.core.UnassignedClassException",
+        "package": "weka.core",
+        "imports": []
+      },
+      {
+        "name": "weka.core.pmml.FieldMetaInfo$Value$Property",
+        "package": "weka.core.pmml",
+		"imports":[]
+      },
+      {
+        "name": "weka.core.neighboursearch.TreePerformanceStats",
+        "package": "weka.core.neighboursearch",
+        "imports": [
+          "weka.core.neighboursearch.PerformanceStats","weka.core.RevisionUtils"
+        ]
+      },
+      {
+        "name": "weka.core.xml.XMLSerialization",
+        "package": "weka.core.xml",
+        "imports": [
+          "weka.core.xml.XMLDocument","weka.core.Utils","weka.core.xml.PropertyHandler","weka.core.RevisionUtils","weka.core.RevisionHandler","weka.core.Version","weka.core.xml.XMLSerializationMethodHandler"
+        ]
+      }
+]
